@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Email :"; ObjectID = "JXo-HW-Gmy"; */
+"JXo-HW-Gmy.text" = "Email :";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "RgG-gO-EhV"; */
+"RgG-gO-EhV.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SKU-D8-kfa"; */
+"SKU-D8-kfa.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Password:"; ObjectID = "Uab-R6-Xts"; */
+"Uab-R6-Xts.placeholder" = "Password:";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "Yqt-x2-G2x"; */
+"Yqt-x2-G2x.normalTitle" = "Logout";
+
+/* Class = "UILabel"; text = "Password :"; ObjectID = "cMv-fO-ppU"; */
+"cMv-fO-ppU.text" = "Password :";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "dbv-jH-Ygp"; */
+"dbv-jH-Ygp.text" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Welcome"; ObjectID = "goV-hQ-4td"; */
+"goV-hQ-4td.normalTitle" = "Welcome";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "hk9-kI-n3B"; */
+"hk9-kI-n3B.normalTitle" = "Create Account";
+
+/* Class = "UITextField"; placeholder = "Email:"; ObjectID = "jgM-le-Dxt"; */
+"jgM-le-Dxt.placeholder" = "Email:";
