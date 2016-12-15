@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D6DE5C6133A2D332F434276 /* Pods_FIXIEDRONE2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978FB4488A7C154CC5992C86 /* Pods_FIXIEDRONE2Tests.framework */; };
+		71F3A89D6594F461106C0C8D /* Pods_FIXIEDRONE2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A268CEBA5D5FBBFE84A5C41B /* Pods_FIXIEDRONE2UITests.framework */; };
+		8A0D0F7B1DD960F00086C145 /* droneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0D0F7A1DD960F00086C145 /* droneViewController.swift */; };
+		8A2D88301DD9EB96000E8A6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A2D882F1DD9EB96000E8A6F /* MapKit.framework */; };
 		8AC94BE01DB7A34700A6E0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC94BDF1DB7A34700A6E0BF /* AppDelegate.swift */; };
 		8AC94BE21DB7A34700A6E0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC94BE11DB7A34700A6E0BF /* ViewController.swift */; };
 		8AC94BE51DB7A34700A6E0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC94BE31DB7A34700A6E0BF /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		8AC94BEA1DB7A34700A6E0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC94BE81DB7A34700A6E0BF /* LaunchScreen.storyboard */; };
 		8AC94BF51DB7A34700A6E0BF /* FIXIEDRONE2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC94BF41DB7A34700A6E0BF /* FIXIEDRONE2Tests.swift */; };
 		8AC94C001DB7A34700A6E0BF /* FIXIEDRONE2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC94BFF1DB7A34700A6E0BF /* FIXIEDRONE2UITests.swift */; };
+		8AC94C0E1DB7A45500A6E0BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC94C0D1DB7A45500A6E0BF /* GoogleService-Info.plist */; };
+		8ADE5D281DD386AD008A68D6 /* mapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE5D271DD386AD008A68D6 /* mapKitViewController.swift */; };
+		BBD7735A6ECA69B2779AD8A0 /* Pods_FIXIEDRONE2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F314B65D26D414BF4726E54 /* Pods_FIXIEDRONE2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F314B65D26D414BF4726E54 /* Pods_FIXIEDRONE2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIXIEDRONE2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FAD2260D3C7B59826E0F50 /* Pods-FIXIEDRONE2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIXIEDRONE2.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIXIEDRONE2/Pods-FIXIEDRONE2.release.xcconfig"; sourceTree = "<group>"; };
+		8A0D0F7A1DD960F00086C145 /* droneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = droneViewController.swift; sourceTree = "<group>"; };
+		8A2D882F1DD9EB96000E8A6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8AC94BDC1DB7A34700A6E0BF /* FIXIEDRONE2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIXIEDRONE2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC94BDF1DB7A34700A6E0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AC94BE11DB7A34700A6E0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		8AC94BFB1DB7A34700A6E0BF /* FIXIEDRONE2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIXIEDRONE2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC94BFF1DB7A34700A6E0BF /* FIXIEDRONE2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIXIEDRONE2UITests.swift; sourceTree = "<group>"; };
 		8AC94C011DB7A34700A6E0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC94C0D1DB7A45500A6E0BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8ADE5D271DD386AD008A68D6 /* mapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapKitViewController.swift; sourceTree = "<group>"; };
+		90943E243863B5027CCD860A /* Pods-FIXIEDRONE2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIXIEDRONE2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIXIEDRONE2Tests/Pods-FIXIEDRONE2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		978FB4488A7C154CC5992C86 /* Pods_FIXIEDRONE2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIXIEDRONE2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A268CEBA5D5FBBFE84A5C41B /* Pods_FIXIEDRONE2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIXIEDRONE2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B12F34269341EF466000577C /* Pods-FIXIEDRONE2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIXIEDRONE2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIXIEDRONE2Tests/Pods-FIXIEDRONE2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C784434935A43BBCD7051002 /* Pods-FIXIEDRONE2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIXIEDRONE2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIXIEDRONE2UITests/Pods-FIXIEDRONE2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E99E30AD9E9CF6C530FB87B1 /* Pods-FIXIEDRONE2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIXIEDRONE2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIXIEDRONE2UITests/Pods-FIXIEDRONE2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED38AA7AFCE83605D3E63DA4 /* Pods-FIXIEDRONE2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIXIEDRONE2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIXIEDRONE2/Pods-FIXIEDRONE2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2D88301DD9EB96000E8A6F /* MapKit.framework in Frameworks */,
+				BBD7735A6ECA69B2779AD8A0 /* Pods_FIXIEDRONE2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D6DE5C6133A2D332F434276 /* Pods_FIXIEDRONE2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +91,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F3A89D6594F461106C0C8D /* Pods_FIXIEDRONE2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B52387D26A892FD5441D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A2D882F1DD9EB96000E8A6F /* MapKit.framework */,
+				978FB4488A7C154CC5992C86 /* Pods_FIXIEDRONE2Tests.framework */,
+				A268CEBA5D5FBBFE84A5C41B /* Pods_FIXIEDRONE2UITests.framework */,
+				0F314B65D26D414BF4726E54 /* Pods_FIXIEDRONE2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8AC94BD31DB7A34700A6E0BF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				8AC94BF31DB7A34700A6E0BF /* FIXIEDRONE2Tests */,
 				8AC94BFE1DB7A34700A6E0BF /* FIXIEDRONE2UITests */,
 				8AC94BDD1DB7A34700A6E0BF /* Products */,
+				D9D1A0D67C344E553F0B05A6 /* Pods */,
+				29B52387D26A892FD5441D0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +135,14 @@
 			isa = PBXGroup;
 			children = (
 				8AC94BDF1DB7A34700A6E0BF /* AppDelegate.swift */,
+				8ADE5D271DD386AD008A68D6 /* mapKitViewController.swift */,
+				8A0D0F7A1DD960F00086C145 /* droneViewController.swift */,
 				8AC94BE11DB7A34700A6E0BF /* ViewController.swift */,
 				8AC94BE31DB7A34700A6E0BF /* Main.storyboard */,
 				8AC94BE61DB7A34700A6E0BF /* Assets.xcassets */,
 				8AC94BE81DB7A34700A6E0BF /* LaunchScreen.storyboard */,
 				8AC94BEB1DB7A34700A6E0BF /* Info.plist */,
+				8AC94C0D1DB7A45500A6E0BF /* GoogleService-Info.plist */,
 			);
 			path = FIXIEDRONE2;
 			sourceTree = "<group>";
@@ -125,6 +165,19 @@
 			path = FIXIEDRONE2UITests;
 			sourceTree = "<group>";
 		};
+		D9D1A0D67C344E553F0B05A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED38AA7AFCE83605D3E63DA4 /* Pods-FIXIEDRONE2.debug.xcconfig */,
+				22FAD2260D3C7B59826E0F50 /* Pods-FIXIEDRONE2.release.xcconfig */,
+				90943E243863B5027CCD860A /* Pods-FIXIEDRONE2Tests.debug.xcconfig */,
+				B12F34269341EF466000577C /* Pods-FIXIEDRONE2Tests.release.xcconfig */,
+				C784434935A43BBCD7051002 /* Pods-FIXIEDRONE2UITests.debug.xcconfig */,
+				E99E30AD9E9CF6C530FB87B1 /* Pods-FIXIEDRONE2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC94C041DB7A34700A6E0BF /* Build configuration list for PBXNativeTarget "FIXIEDRONE2" */;
 			buildPhases = (
+				6C8F5F3CB137E78AACC92246 /* 📦 Check Pods Manifest.lock */,
 				8AC94BD81DB7A34700A6E0BF /* Sources */,
 				8AC94BD91DB7A34700A6E0BF /* Frameworks */,
 				8AC94BDA1DB7A34700A6E0BF /* Resources */,
+				80F08BCF54B17C3BF8412AD1 /* 📦 Embed Pods Frameworks */,
+				14BDB718D4EF557F3F551226 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC94C071DB7A34700A6E0BF /* Build configuration list for PBXNativeTarget "FIXIEDRONE2Tests" */;
 			buildPhases = (
+				6DD72AB79CDF986AF994644A /* 📦 Check Pods Manifest.lock */,
 				8AC94BEC1DB7A34700A6E0BF /* Sources */,
 				8AC94BED1DB7A34700A6E0BF /* Frameworks */,
 				8AC94BEE1DB7A34700A6E0BF /* Resources */,
+				91C60C9A7A9A28E233F44259 /* 📦 Embed Pods Frameworks */,
+				294BA5F68D274721F95FD9B7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC94C0A1DB7A34700A6E0BF /* Build configuration list for PBXNativeTarget "FIXIEDRONE2UITests" */;
 			buildPhases = (
+				70BCCB37C87F0FC1028EF2BC /* 📦 Check Pods Manifest.lock */,
 				8AC94BF71DB7A34700A6E0BF /* Sources */,
 				8AC94BF81DB7A34700A6E0BF /* Frameworks */,
 				8AC94BF91DB7A34700A6E0BF /* Resources */,
+				327A00B2FD68A981F04B19AA /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,20 +249,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = KMITL;
 				TargetAttributes = {
 					8AC94BDB1DB7A34700A6E0BF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 76M9F6X53T;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					8AC94BEF1DB7A34700A6E0BF = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8AC94BDB1DB7A34700A6E0BF;
 					};
 					8AC94BFA1DB7A34700A6E0BF = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8AC94BDB1DB7A34700A6E0BF;
 					};
@@ -234,6 +299,7 @@
 			files = (
 				8AC94BEA1DB7A34700A6E0BF /* LaunchScreen.storyboard in Resources */,
 				8AC94BE71DB7A34700A6E0BF /* Assets.xcassets in Resources */,
+				8AC94C0E1DB7A45500A6E0BF /* GoogleService-Info.plist in Resources */,
 				8AC94BE51DB7A34700A6E0BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +320,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14BDB718D4EF557F3F551226 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIXIEDRONE2/Pods-FIXIEDRONE2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		294BA5F68D274721F95FD9B7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIXIEDRONE2Tests/Pods-FIXIEDRONE2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		327A00B2FD68A981F04B19AA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIXIEDRONE2UITests/Pods-FIXIEDRONE2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C8F5F3CB137E78AACC92246 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD72AB79CDF986AF994644A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70BCCB37C87F0FC1028EF2BC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80F08BCF54B17C3BF8412AD1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIXIEDRONE2/Pods-FIXIEDRONE2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C60C9A7A9A28E233F44259 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIXIEDRONE2Tests/Pods-FIXIEDRONE2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AC94BD81DB7A34700A6E0BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +450,8 @@
 			files = (
 				8AC94BE21DB7A34700A6E0BF /* ViewController.swift in Sources */,
 				8AC94BE01DB7A34700A6E0BF /* AppDelegate.swift in Sources */,
+				8ADE5D281DD386AD008A68D6 /* mapKitViewController.swift in Sources */,
+				8A0D0F7B1DD960F00086C145 /* droneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,9 +524,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -355,7 +548,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -382,9 +575,11 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -398,8 +593,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -408,30 +604,35 @@
 		};
 		8AC94C051DB7A34700A6E0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED38AA7AFCE83605D3E63DA4 /* Pods-FIXIEDRONE2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76M9F6X53T;
 				INFOPLIST_FILE = FIXIEDRONE2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIE.FIXIEDRONE2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
 		8AC94C061DB7A34700A6E0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FAD2260D3C7B59826E0F50 /* Pods-FIXIEDRONE2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76M9F6X53T;
 				INFOPLIST_FILE = FIXIEDRONE2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIE.FIXIEDRONE2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
 		8AC94C081DB7A34700A6E0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90943E243863B5027CCD860A /* Pods-FIXIEDRONE2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -439,13 +640,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIE.FIXIEDRONE2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIXIEDRONE2.app/FIXIEDRONE2";
 			};
 			name = Debug;
 		};
 		8AC94C091DB7A34700A6E0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12F34269341EF466000577C /* Pods-FIXIEDRONE2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -453,33 +655,35 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIE.FIXIEDRONE2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIXIEDRONE2.app/FIXIEDRONE2";
 			};
 			name = Release;
 		};
 		8AC94C0B1DB7A34700A6E0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C784434935A43BBCD7051002 /* Pods-FIXIEDRONE2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FIXIEDRONE2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIE.FIXIEDRONE2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FIXIEDRONE2;
 			};
 			name = Debug;
 		};
 		8AC94C0C1DB7A34700A6E0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99E30AD9E9CF6C530FB87B1 /* Pods-FIXIEDRONE2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FIXIEDRONE2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIE.FIXIEDRONE2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = FIXIEDRONE2;
 			};
 			name = Release;
@@ -503,6 +707,7 @@
 				8AC94C061DB7A34700A6E0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AC94C071DB7A34700A6E0BF /* Build configuration list for PBXNativeTarget "FIXIEDRONE2Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +716,7 @@
 				8AC94C091DB7A34700A6E0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AC94C0A1DB7A34700A6E0BF /* Build configuration list for PBXNativeTarget "FIXIEDRONE2UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +725,7 @@
 				8AC94C0C1DB7A34700A6E0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
